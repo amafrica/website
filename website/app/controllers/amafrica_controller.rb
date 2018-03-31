@@ -1,0 +1,2 @@
+class AmafricaController < ApplicationController
+end

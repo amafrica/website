@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Andrea Africa</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="nav-bar">
+      <div class="nav-container">
+        <div class="nav-menu">
+          <a href="#skills-link-target" class="nav-items">Skills</a>
+          <a href="#about-link-target" class="nav-items">About</a>
+          <a href="#work-link-target" class="nav-items">Work</a>
+          <a href="#contact-link-target" class="nav-items">Contact</a>
+        </div>
+      </div>
+    </div>
+    <%= yield %>
+  </body>
+  <footer>
+    &copy; Andrea Africa 2017
+  </footer>
+</html>
